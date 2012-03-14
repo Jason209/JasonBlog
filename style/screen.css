@@ -1,1 +1,17 @@
-﻿/* *info:for blog index.html*author:Jason*date:2012.3.13*/html{	background:#FFFCF0 url(../images/bg.jpg) top left;}header{	height:200px;	border:1px solid #000;	margin-bottom:20px;}header hgroup.author{	margin-left:100px;	width:300px;}header hgroup.author h1{	text-shadow:2px 2px 1px rgba(255, 255, 255, 0.6);	font:bold 60px/100px "PT Serif","Georgia","Helvetica Neue",Arial,sans-serif;	height:100px;}header hgroup.author h2{	text-shadow:2px 2px 1px rgba(255, 255, 255, 0.6);	font:bold 20px/30px "PT Serif","Georgia","Helvetica Neue",Arial,sans-serif;	height:30px;}.main{	margin:0 auto;	width:960px;	height:800px;	box-shadow:1px 3px 10px #000;	border-radius: 15px;	border:1px solid #000;}footer{	height:350px;	border:1px solid #000;	margin-top:20px;}footer section.footer{	margin:0 auto;	width:1024px;}footer section.f_left{	margin-left:20px;	width:300px;}footer section.f_left h1{	margin:20px 0 0;	padding:10px;	height:25px;	border-bottom:1px solid #7E5328;	box-shadow:0 1px #FFDEB4;	font:bold 18px/25px "微软雅黑";	color:#000;}
+<<<<<<< HEAD
+﻿/* *info:for blog index.html*author:Jason*date:2012.3.13*/html{	background:#FFFCF0 url(../images/bg.jpg) top left;}header{	height:200px;	border:1px solid #000;	margin-bottom:20px;}header hgroup.author{	margin-left:100px;	width:300px;}header hgroup.author h1{	text-shadow:2px 2px 1px rgba(255, 255, 255, 0.6);	font:bold 60px/100px "PT Serif","Georgia","Helvetica Neue",Arial,sans-serif;	height:100px;}header hgroup.author h2{	text-shadow:2px 2px 1px rgba(255, 255, 255, 0.6);	font:bold 20px/30px "PT Serif","Georgia","Helvetica Neue",Arial,sans-serif;	height:30px;}.main{	margin:0 auto;	width:960px;	height:800px;	box-shadow:1px 3px 10px #000;	border-radius: 15px;	border:1px solid #000;}footer{	height:350px;	border:1px solid #000;	margin-top:20px;}footer section.footer{	margin:0 auto;	width:1024px;}footer section.f_left{	margin-left:20px;	width:300px;}footer section.f_left h1{	margin:20px 0 0;	padding:10px;	height:25px;	border-bottom:1px solid #7E5328;	box-shadow:0 1px #FFDEB4;	font:bold 18px/25px "微软雅黑";	color:#000;}
+=======
+﻿/* 
+*info:for blog index.html
+*author:Jason
+*date:2012.3.13
+*/
+html{
+	background:#FFFCF0 url(../images/bg.jpg) top left;
+}
+.wrap{
+	margin:0 auto;
+	width:1024px;
+}
+header
+>>>>>>> acfdad105a53d4df672732fa08d37a55b732a2c2
