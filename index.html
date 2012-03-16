@@ -11,11 +11,20 @@
 </head>
 <body>
 <div id="wrapper">
-	<header>
+	<header class="bloghead">
 		<hgroup class="author">
 			<h1>Jason</h1>
 			<h2>52 10 05 ❤ 10 05 21</h2>
 		</hgroup>
+		<figure class="figure_rss">
+			<menu class="fd-clr">
+				<li><a class="sina" href="javascript:;"></a></li>
+				<li><a class="qq" href="javascript:;"></a></li>
+				<li><a class="rss" href="javascript:;"></a></li>
+				<li><a class="mail" href="javascript:;"></a></li>
+				<li><a class="bookmark" href="javascript:;"></a></li>		
+			</menu>
+		</figure>
 		<nav class="navigation fd-clr">
 			<ul class="nav fd-clr">
 				<li><a href="javascript:;" class="menu">Home</a></li>
@@ -47,6 +56,9 @@
 			</section>
 			<section class="tagCloud">
 				<!-- 标签云 -->
+				<header class="category_head">
+					<h1>热门标签</h1>
+				</header>
 				<div id="tagCloud">
 					<a href="javascript:;">Html5</a>
 					<a href="javascript:;">Css3</a>
@@ -81,27 +93,73 @@
 			</section>
 			<section class="category">
 				<!-- 文章分类 -->
-				<header>
+				<header class="category_head">
 					<h1>热门分类</h1>
-					<span><a href="javascript:;">[<cite>more<cite>]</a></span>	
 				</header>
-				<nav>
+				<nav class="category_nav">
 					<ul>
 						<li><a href="javascript:;">全部博文</a><span>(200)</span></li>
 						<li><a href="javascript:;">html5</a><span>(18)</span></li>
 						<li><a href="javascript:;">Nodejs</a><span>(46)</span></li>
 						<li><a href="javascript:;">Css3</a><span>(12)</span></li>
 						<li><a href="javascript:;">Ajax</a><span>(23)</span></li>
+						<li><a href="javascript:;">Javascript</a><span>(30)</span></li>
+						<li><a href="javascript:;">Tips</a><span>(23)</span></li>
 					</ul>
 				</nav>
 			</section>
-			<section>
+			<section class="comment">
 				<!-- 最新评论 -->
-				<header>
-					<h1></h1>
-					<nav>
-					</nav>
+				<header class="category_head">
+					<h1>最新评论</h1>
 				</header>
+				<nav class="comment_nav">
+					<dl>
+						<dt class="fd-clr">
+							<span class="comment_name">Jason</span>
+							<time datetime="2012-04-01" class="comment_time">2012.04.01 16:24 </time>
+						</dt>
+						<dd>
+							<p><a href="javascript:;">今天Jason-Blog发布上线了...</a></p>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="fd-clr">
+							<span class="comment_name">Kobe</span>
+							<time datetime="2012-04-01" class="comment_time">2012.03.14 09:24</time>
+						</dt>
+						<dd>
+							<p><a href="javascript:;">谢谢，正是我所需要的~</a></p>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="fd-clr">
+							<span class="comment_name">前端攻城湿</span>
+							<time datetime="2012-04-01" class="comment_time">2012.02.14 20:01</time>
+						</dt>
+						<dd>
+							<p><a href="javascript:;">不想打印网址，你设置IE 的页面设置即可...</a></p>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="fd-clr">
+							<span class="comment_name">淘宝ued</span>
+							<time datetime="2012-04-01" class="comment_time">2012.02.12 10:56</time>
+						</dt>
+						<dd>
+							<p><a href="javascript:;">打印前能不能先返回 false？这样按后退的时</a></p>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="fd-clr">
+							<span class="comment_name">丘比特</span>
+							<time datetime="2012-04-01" class="comment_time">2012.02.01 22:06</time>
+						</dt>
+						<dd>
+							<p><a href="javascript:;">不错呀，效果很好看，收藏了...</a></p>
+						</dd>
+					</dl>
+				</nav>
 			</section>
 		</aside>
 		

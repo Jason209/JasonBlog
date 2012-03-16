@@ -7,7 +7,7 @@ var lasta = 1;
 var lastb = 1;
 var distr = true;
 var tspeed=10;
-var size=100;
+var size=250;
 var mouseX=0;
 var mouseY=0;
 var howElliptical=1;
@@ -47,7 +47,7 @@ window.onload=function ()
 		mouseY/=5;
 	};
 	
-	setInterval(update, 20);
+	setInterval(update, 50);
 };
 
 function update()
