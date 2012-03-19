@@ -7,6 +7,9 @@
 <link rel="stylesheet" href="style/global.css" />
 <link rel="stylesheet" href="style/screen.css" />
 <script type="text/javascript" src="scripts/tagcloud.js"></script>
+<script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+</script>
 <title>Jason的博客</title>
 </head>
 <body>
@@ -42,17 +45,208 @@
 				</li>
 			</ul>
 			<fieldset role="search" class="search_form">
-				<form class="" name="" action="" >
+				<form class="fd-clr" name="" action="" >
 					<input class="search" type="text" placeholder="Search" />
+					<input type="submit" class="submit" value=""/>
 				</form>
 			</fieldset>
 		</nav>
 	</header>
 	<div id="main" class="main fd-clr">
-		<section class="blogcontent"></section>
+		<section class="blogcontent fd-clr">
+			<div class="contentleft">
+				<ul class="castlist-box">
+					<li>
+						<section class="infodetail">
+							<section class="photo-loading">
+								<a class="photo-link" href="javascript:;">
+									<img src="images/cast1.jpg" alt="" title="" />
+								</a>
+							</section>
+							<section class="entry">
+								<h1>数字鸿沟的两岸</h1>
+								<article>鸿沟的一边信息匮乏，一边信息过剩，但相同的一点就是，我们都越来越不了解这个世界。</article>
+								<aside class="fd-clr">
+									<a class="aside-link" href="javascript:;" title="" target="_blank">分类：Nodejs</a>
+									<time datetime="2012.3.19">2012-3-19</time>
+								</aside>
+							</section>
+						</section>
+					</li>
+					<li class="relative">
+						<div class="suggest"></div> 
+						<section class="infodetail">
+							<section class="photo-loading">
+								<a class="photo-link" href="javascript:;">
+									<img src="images/cast4.png" alt="" title="" />
+								</a>
+							</section>
+							<section class="entry">
+								<h1>GitHub 与社会化编程</h1>
+								<article>社会化的浪潮正席卷整个互联网，在软件开发领域也是如此。社会化是如何改变传统软件开发的？同时，版本控制的理念与开源的精神正通过 GitHub 这样的社会化平台向更多的行业扩展，其未来的影响将不仅仅局限在开发领域。</article>
+								<aside class="fd-clr">
+									<a class="aside-link" href="javascript:;" title="" target="_blank">分类：github</a>
+									<time datetime="2012.3.19">2012-5-24</time>
+								</aside>
+							</section>
+						</section>
+					</li>
+					<li>
+						<section class="infodetail">
+							<section class="photo-loading">
+								<a class="photo-link" href="javascript:;">
+									<img src="images/cast7.png" alt="" title="" />
+								</a>
+							</section>
+							<section class="entry">
+								<h1>专利大战转机？苹果考虑向部分 Android 厂商授权专利</h1>
+								<article>苹果表示愿意向部分 Android 厂商授权移动专利，以和解目前混乱的专利大战。苹果为何改变自己的立场，这对于 Google 和 Android 来说意味着什么？</article>
+								<aside class="fd-clr">
+									<a class="aside-link" href="javascript:;" title="" target="_blank">分类：google</a>
+									<time datetime="2012.3.19">2012-5-24</time>
+								</aside>
+							</section>
+						</section>
+					</li>
+				</ul>
+			</div>
+			<div class="contentmiddle">
+				<ul class="castlist-box">
+					<li class="relative">
+						<div class="suggest"></div> 
+						<section class="infodetail">
+							<section class="photo-loading">
+								<a class="photo-link" href="javascript:;">
+									<img src="images/cast2.jpg" alt="" title="" />
+								</a>
+							</section>
+							<section class="entry">
+								<h1>云计算安全性：令人不安</h1>
+								<article>从目前云计算产业的环境来看，中国政府尽管对云计算投入了大量的资金和政策支持，但还没有出台云计算运营相关的法律法规。如果数据出了问题，又无法对最终的责任进行追究，给企业造成的损失无法想象。</article>
+								<aside class="fd-clr">
+									<a class="aside-link" href="javascript:;" title="" target="_blank">分类：Cload</a>
+									<time datetime="2012.3.19">2012-2-24</time>
+								</aside>
+							</section>
+						</section>
+					</li>
+					<li>
+						<section class="infodetail">
+							<section class="photo-loading">
+								<a class="photo-link" href="javascript:;">
+									<img src="images/cast5.jpg" alt="" title="" />
+								</a>
+							</section>
+							<section class="entry">
+								<h1>移动互联网发展再加速</h1>
+								<article>手机是我们这个时代中最贴近生活的科技之一，同时也是被使用得最广泛的科技之一。截至2011年底，全世界有5.8亿人使用移动设备。很多的移动设备用户沉迷于他们的设备，特别是功能强大的智能手机用户们。</article>
+								<aside class="fd-clr">
+									<a class="aside-link" href="javascript:;" title="" target="_blank">分类：mobile internet</a>
+									<time datetime="2012.3.19">2012-2-24</time>
+								</aside>
+							</section>
+						</section>
+					</li>
+					<li class="relative">
+						<div class="suggest"></div> 
+						<section class="infodetail">
+							<section class="photo-loading">
+								<a class="photo-link" href="javascript:;">
+									<img src="images/cast8.jpg" alt="" title="" />
+								</a>
+							</section>
+							<section class="entry">
+								<h1>当音乐遇上社交网络</h1>
+								<article>数字化和互联网的到来改变了音乐的生态环境，但互联网时代并不是音乐产业和音乐人的末日，围绕音乐展开的一系列全生态的音乐产业才是未来的趋势。</article>
+								<aside class="fd-clr">
+									<a class="aside-link" href="javascript:;" title="" target="_blank">分类：SNS</a>
+									<time datetime="2012.3.19">2012-2-24</time>
+								</aside>
+							</section>
+						</section>
+					</li>
+				</ul>
+			</div>
+			<div class="contentright">
+				<ul class="castlist-box">	
+					<li>
+						<section class="infodetail">
+							<section class="photo-loading">
+								<a class="photo-link" href="javascript:;">
+									<img src="images/cast3.png" alt="" title="" />
+								</a>
+							</section>
+							<section class="entry">
+								<h1>为什么 Sparrow for iPhone 没有推送功能？</h1>
+								<article>Mac上著名的创新邮件应用Sparrow昨天推出了iOS版本，在炫目的亮点中，没有邮件推送功能这个巨大的缺憾显得格外刺眼。Sparrow 官方解释说，为了保护用户隐私和数据安全，他们放弃了实现这一功能。而希望用户能够向苹果官方请愿改变政策，使其能够以最安全的方式在后续版本中为用户提供推送功能</article>
+								<aside class="fd-clr">
+									<a class="aside-link" href="javascript:;" title="" target="_blank">分类：apple</a>
+									<time datetime="2012.3.19">2012-2-24</time>
+								</aside>
+							</section>
+						</section>
+					</li>
+					<li class="relative">
+						<div class="suggest"></div> 
+						<section class="infodetail">
+							<section class="photo-loading">
+								<a class="photo-link" href="javascript:;">
+									<img src="images/cast6.jpg" alt="" title="" />
+								</a>
+							</section>
+							<section class="entry">
+								<h1>Google+ 社交再尝试</h1>
+								<article>Google 推出了Google+，对社交网络进行了又一次尝试。本文对 Google+的背景，特色，功能，优劣势等进行了分析，并对 Google+ 与其竞争对手进行了比较</article>
+								<aside class="fd-clr">
+									<a class="aside-link" href="javascript:;" title="" target="_blank">分类：google</a>
+									<time datetime="2012.3.19">2012-2-24</time>
+								</aside>
+							</section>
+						</section>
+					</li>	
+					<li>
+						<section class="infodetail">
+							<section class="photo-loading">
+								<a class="photo-link" href="javascript:;">
+									<img src="images/cast9.jpg" alt="" title="" />
+								</a>
+							</section>
+							<section class="entry">
+								<h1>利用人性弱点的互联网服务（三）虚荣</h1>
+								<article>人生的价值就是获得别人的肯定，过分的追求不合理的或者虚假的表扬就是虚荣。虚荣心是人类一种普通的心理状态。虚荣使一个人上瘾，同时也极易容易影响他人，这就是虚荣强大的力量。现在众多网站都注意到了这一点，下大力气在体现用户价值上面做足了文章。</article>
+								<aside class="fd-clr">
+									<a class="aside-link" href="javascript:;" title="" target="_blank">分类：tencent</a>
+									<time datetime="2012.3.19">2012-2-24</time>
+								</aside>
+							</section>
+						</section>
+					</li>
+				</ul>
+			</div>
+		</section>
 		<aside class="sidebar">
-			<section class="occupy">
+			<section class="login">
 				<!-- 登录 -->
+				<figure class="welcome">
+					<figcaption>欢迎来到Jason Blog</figcaption>
+					<form name="login" action="#">
+						<div>
+							<label for="username">邮箱</label>
+							<input type="text" name="username" id="username" autocomplete="off"/>
+						</div>
+						<div>
+							<label for="password">密码</label>
+							<input type="password" name="password" id="password"/>
+						</div>
+						<div>
+							</label><input type="checkbox" name="" />
+							<span>记住我</span>
+							<input type="submit" name="" value="登&nbsp;录" />
+						</div>	
+						<ul class="emailtip">
+						</ul>
+					</form>
+				</figure>
 			</section>
 			<section class="tagCloud">
 				<!-- 标签云 -->
@@ -81,14 +275,14 @@
 					<a href="javascript:;">CPU</a>
 					<a href="javascript:;">Air</a>
 					<a href="javascript:;">Nike</a>
-					<a href="javascript:;">Linus</a>
+					<!-- <a href="javascript:;">Linus</a>
 					<a href="javascript:;">Nokia</a>
 					<a href="javascript:;">Sony</a>
 					<a href="javascript:;">Nodejs</a>
 					<a href="javascript:;">Canvs</a>
 					<a href="javascript:;">Transform</a>
 					<a href="javascript:;">progress</a>
-					<a href="javascript:;">Concurrent</a>	
+					<a href="javascript:;">Concurrent</a>	 -->
 				</div>
 			</section>
 			<section class="category">
@@ -191,5 +385,6 @@
 		<p class="copyright">Copyright © 2012 All Rights Reserved.Powered by Jason</p>
 	</footer>
 </div>
+<script type="text/javascript" src="scripts/index.js"></script>
 </body>
 </html>
