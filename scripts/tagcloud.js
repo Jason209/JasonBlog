@@ -47,7 +47,7 @@ window.onload=function ()
 		mouseY/=5;
 	};
 	
-	setInterval(update, 50);
+	setInterval(update, 20);
 };
 
 function update()
