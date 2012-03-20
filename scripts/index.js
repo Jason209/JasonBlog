@@ -1,4 +1,10 @@
 ﻿(function($){
+	/* imgdelay */
+	var imgdelay = new ImagesDelay('ul.castlist-box');
+	/* lidelay */
+	var divdelay = new DivDelay('ul.castlist-box');
+	/* totop */
+	$().UItoTop();
 	/* blogcontent hover */
 	$('.blogcontent li').hover(function(){
 		$(this).css('background-color','#C3E89E');		
@@ -14,7 +20,8 @@
 	/* 邮箱提醒 */
 	var mailarray=["gmail.com","sina.com","163.com","taobao.com"];
 	var tip=$('#username').closest('form').find('.emailtip');
-	var flag=true;
+	var username;
+	var flag=false;
 	for(var i = 0, l = mailarray.length; i <= l; i++){
 		tip.append("<li></li>");
 	}
@@ -34,17 +41,18 @@
 			}
 		});
 	}
-	$('body').delegate('ul.emailtip li','click',function(){
-		var val=$(this).text();
-		$('#username').val(val);
-		tip.hide();
-	});
 	$('body').delegate('#username','blur',function(){
+		if(flag){
+			$('#username').val(username);
+		}
 		tip.hide();
 	});
 	$('figure.welcome ul.emailtip li').hover(function(){
+		flag=true;
+		username=$(this).text();
 		$(this).css('background-color','#BCDBE4');	
 	},function(){
+		username=$('#username').val();
 		$(this).css('background-color','#FFFFFF');	
 	});
 	
