@@ -3,12 +3,7 @@
 *author:shenjie
 *date:2012.3.14
 */
-html {
-    background: none repeat scroll 0 0 #FFFFFF;
-    color: #000000;
-    overflow-y: scroll;
-}
-body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, form, th, td {
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, form, th, td ,figure{
     margin: 0;
     padding: 0;
 }

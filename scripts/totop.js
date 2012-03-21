@@ -7,7 +7,6 @@
 
 (function($){
 	$.fn.UItoTop = function(options) {
-
  		var defaults = {
 			text: 'To Top',
 			min: 200,
@@ -53,6 +52,5 @@
 			else 
 				$(containerIDhash).fadeOut(settings.Outdelay);
 		});
-
-};
+	};
 })(jQuery);

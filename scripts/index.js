@@ -3,19 +3,11 @@
 	var imgdelay = new ImagesDelay('ul.castlist-box');
 	/* lidelay */
 	var divdelay = new DivDelay('ul.castlist-box');
-	/* totop */
-	$().UItoTop();
 	/* blogcontent hover */
 	$('.blogcontent li').hover(function(){
 		$(this).css('background-color','#C3E89E');		
 	},function(){
 		$(this).css('background-color','#F4F4F4');
-	});
-	/* 二级菜单*/
-	$('ul.nav li').hover(function(){
-		$(this).find('.subnav').show();
-	},function(){
-		$(this).find('.subnav').hide();
 	});
 	/* 邮箱提醒 */
 	var mailarray=["gmail.com","sina.com","163.com","taobao.com"];
