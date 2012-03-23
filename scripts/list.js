@@ -1,14 +1,9 @@
 ﻿(function($){
-	/* imgdelay */
+	/* imgdelay
 	var imgdelay = new ImagesDelay('ul.castlist-box');
+	*/
 	/* divdelay */
-	var divdelay = new DivDelay('ul.castlist-box');
-	/* blogcontent hover */
-	$('.blogcontent li').hover(function(){
-		$(this).css('background-color','#C3E89E');		
-	},function(){
-		$(this).css('background-color','#F4F4F4');
-	});
+	var divdelay = new DivDelay('section.bloglist ul');
 	/* 邮箱提醒 */
 	var mailarray=["gmail.com","sina.com","163.com","taobao.com"];
 	var tip=$('#username').closest('form').find('.emailtip');
