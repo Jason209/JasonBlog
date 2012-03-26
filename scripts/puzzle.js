@@ -7,6 +7,15 @@ document.ondrop = function(e){e.preventDefault();};
 window_onload();
 function selectFile()
 {
+	var td;
+    for(var i=0;i<5;i++)
+    {
+        for(var j=0;j<5;j++)
+        {
+            td=document.getElementById("dest_table").rows[i].cells[j];
+            td.innerHTML="";
+         }
+    }
     var file = document.getElementById("file").files[0];
     if(!/image\/\w+/.test(file.type))
     {
@@ -27,8 +36,9 @@ function selectFile()
              imageWidth=image.width;
              imageHeight=image.height;
         } 
-       document.getElementById("createPuzzle").disabled=""; 
-   }
+        document.getElementById("createPuzzle").disabled=""; 
+	    document.getElementById("puzzle_source").innerHTML="";
+    }
 }
 /* draw source canvas */
 function drawPuzzle()
@@ -80,6 +90,7 @@ function drawPuzzle()
             td.addEventListener("drop", function(ev) 
             {
                 var td=ev.srcElement||ev.target;
+				console.log(ev.srcElement,ev.target);
                 if(td.getAttribute("tag")!=null)
                 {
                     td.appendChild(draggedCanvas);
@@ -129,7 +140,7 @@ function window_onload()
             }, false);
             dest_rd.addEventListener("drop", function(ev) 
             {
-				console.log("drop");
+				
                 var td=ev.srcElement||ev.target;       
                 if(td.getAttribute("tag")!=null)
                 {
@@ -141,7 +152,7 @@ function window_onload()
                 {
                     for(var j=0;j<5;j++)
                     {
-                        canvas=dest_rd.children[0];
+                        canvas=document.getElementById("dest_table").rows[i].cells[j].children[0];
                         if(canvas==null)
                         {
                             allHaveFlag=false;
@@ -159,7 +170,6 @@ function window_onload()
                 ev.preventDefault();
                 ev.stopPropagation();
             }, false);
-			console.log(dest_rd);
         }	
     }
 
