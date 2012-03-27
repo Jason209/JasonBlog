@@ -25,8 +25,6 @@ function selectFile()
      else
     {
         canvas=document.createElement("canvas");
-        /* canvas.style.display="none";
-        document.getElementById("puzzle_source").appendChild(canvas); */
         var ctx=canvas.getContext('2d');
         image=new Image();
 		image.src=window.URL.createObjectURL(document.getElementById("file").files[0]);
@@ -51,7 +49,7 @@ function drawPuzzle()
     table.setAttribute("cellpadding","0");
     table.setAttribute("cellSpacing","1");
     picWidth=400;
-    picHeight=400;
+    picHeight=300;
     for(var i=0;i<5;i++)
     {
         for(var j=0;j<5;j++)
@@ -64,7 +62,7 @@ function drawPuzzle()
             canvas.style.display="block";
             canvas.setAttribute("index",i*5+j);
             canvas.addEventListener("dragstart", function(ev){
-			
+
                 draggedCanvas=ev.srcElement||ev.target;
                 var dt = ev.dataTransfer;
                 dt.effectAllowed = 'all';    
@@ -110,7 +108,8 @@ function drawPuzzle()
     document.getElementById("createPuzzle").disabled="disabled";   
 }
 function window_onload()
-{
+{	
+	document.getElementById("file").value="";
     var td,tr,dest,table;
 	dest=document.getElementById("puzzle_dest");
     table=document.createElement("table");
@@ -140,7 +139,7 @@ function window_onload()
             }, false);
             dest_rd.addEventListener("drop", function(ev) 
             {
-				
+
                 var td=ev.srcElement||ev.target;       
                 if(td.getAttribute("tag")!=null)
                 {

@@ -52,39 +52,21 @@
 	<div class="main fd-clr">
 		<section class="blog-article">
 			<article>
-			<h1 class="blog-tiitle">Google+ 社交再尝试</h1>
+			<h1 class="blog-tiitle">Canvas 拼图游戏</h1>
 			<aside class="blog-aside">
-			<span>Google / </span> 
+			<span>Canvas / </span> 
 			<time datetime="12:31  2012.3.22">12:31  2012-03-22</time>
 			</aside>
 			<section class="demo">	
-				<div class="introduction"><strong>[核心提示]</strong> Google 推出了 Google+，对社交网络进行了又一次尝试。本文对 Google+ 的背景，特色，功能，优劣势等进行了分析，并对 Google+ 与其竞争对手进行了比较。 </div>
+				<div class="introduction"><strong>[核心提示]</strong> 用户可选择一张本地图片，单击“创建拼图”按钮后出现打乱的图片片段，用户需要根据记忆完成拼图。该游戏综合运用了Canvas API，FileList对象以及Blob对象来实现其功能。</div>
 				<div id="puzzle_para">
-					<select id="puzzle_row">
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5" selected="selected">5</option>
-						<option value="6">6</option>
-						<option value="7">7</option>
-						<option value="8">8</option>
-					</select>
-					<label for="puzzle_row">行</label>
-					<select id="puzzle_rank">
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5" selected="selected">5</option>
-						<option value="6">6</option>
-						<option value="7">7</option>
-						<option value="8">8</option>
-					</select>
-					<label for="">列</label>
-					<input type="file" accept="image/*" onchange="selectFile()" id="file"/>
+					<input type="file" accept="image/*" onchange="selectFile()" id="file" />
 					<input type="button" id="createPuzzle" value="创建拼图" disabled="true" onclick="drawPuzzle()" />
 				</div>
 				<div id="puzzle_source"></div>
 				<div id="puzzle_dest"></div>
 			</section>
-			<section>
+			<section class="share-tag">
 				<div class="blog-tag">
 					<dl class="fd-clr">
 						<dt>标签：</dt>

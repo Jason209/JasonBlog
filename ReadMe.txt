@@ -1,1 +1,1 @@
-本项目采用最新的HTML5和CSS3实现，目前主流的浏览器并不支持，如IE、360、遨游等，所以请下载最新的google chrome或 Firefox，如需最佳体验，建议下载最新的chrome，谢谢！！！
+本项目采用最新的HTML5和CSS3实现，目前主流的浏览器并不支持，如IE、360、遨游等，所以请下载最新的google chrome或 Firefox，如需最佳体验，建议下载最新的Firefox，谢谢！！！
