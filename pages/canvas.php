@@ -11,44 +11,7 @@
 </head>
 <body>
 <div class="wrapper">
-	<header class="bloghead">
-		<hgroup class="author">
-			<h1>Jason</h1>
-			<h2>52 10 05 ❤ 10 05 21</h2>
-		</hgroup>
-		<figure class="figure_rss">
-			<menu class="fd-clr">
-				<li><a class="sina" href="http://weibo.com/209jason"></a></li>
-				<li><a class="qq" href="http://t.qq.com/Jason_209"></a></li>
-				<li><a class="twitter" href="https://twitter.com/#!/shenjie209"></a></li>
-				<li><a class="mail" href="javascript:;" target="_self" onclick="parent.location='mailto:shenjie209@gmail.com?subject=欢迎给Jason提供好的建议'"></a></li>
-				<li><a class="bookmark" href="javascript:;" target="_self" ></a></li>		
-			</menu>
-		</figure>
-		<nav class="navigation fd-clr">
-			<ul class="nav fd-clr">
-				<li><a href="javascript:;" class="menu">Home</a></li>
-				<li><a href="javascript:;" class="menu">html5</a></li>
-				<li><a href="javascript:;" class="menu">Css3</a></li>
-				<li><a href="javascript:;" class="menu">Javascript</a></li>
-				<li><a href="javascript:;" class="menu">NodeJs</a></li>
-				<li><a href="javascript:;" class="menu">Ued</a></li>
-				<li><a href="javascript:;" class="menu">More</a>
-				<ul class="subnav">
-					<li><a class="submenu" href="javascript:;">Articles</a></li>
-					<li><a class="submenu" href="javascript:;">News</a></li>
-					<li><a class="submenu" href="javascript:;">Tools</a></li>
-				</ul>
-				</li>
-			</ul>
-			<fieldset role="search" class="search_form">
-				<form class="fd-clr" name="" action="" >
-					<input class="search" type="text" placeholder="Search" />
-					<input type="submit" class="submit" value=""/>
-				</form>
-			</fieldset>
-		</nav>
-	</header>
+	<?php include("../template/header.php"); ?>
 	<div class="main fd-clr">
 		<section class="blog-article">
 			<article>
@@ -162,32 +125,7 @@
 			</nav>
 		</section>
 	</div>
-	<footer>
-		<section class="footer fd-clr">
-			<section class="f_left">
-				<h1>About Blog</h1>
-				<article>		Jason的博客专注于分享职业相关的博客文章、业界资讯和职业相关的优秀工具和资源。博文类别包括：程序员、设计、营销、互联网、IT技术、自由职业、创业、运营、管理、翻译和人力资源等等。期待您通过RSS订阅和微博关注我们。
-				</article>
-			</section>
-			<section class="f_middle">
-				<h1>My Friends</h1>
-				<ul>
-					<li><a href="http://blog.jobbole.com" class="friendlink">伯乐在线</a></li>
-					<li><a href="http://www.css88.com" class="friendlink">WEB前端开发</a></li>
-					<li><a href="http://www.qianduan.net" class="friendlink">前端观察</a></li>
-					<li><a href="http://www.mhtml5.com" class="friendlink">Html5研究小组</a></li>
-				</ul>
-				</article>
-			</section>
-			<section class="right">
-				<h1>Join Me</h1>
-				<article>
-				
-				</article>
-			</section>
-		</section>
-		<p class="copyright">Copyright © 2012 All Rights Reserved.Powered by Jason</p>
-	</footer>							
+	<?php include("../template/footer.php"); ?>								
 </div>
 <script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="../scripts/totop.js"></script>
