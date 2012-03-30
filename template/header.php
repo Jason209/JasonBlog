@@ -1,7 +1,7 @@
 ﻿<header class="bloghead">
 	<hgroup class="author">
 		<h1>Jason</h1>
-		<h2>52 10 05 ? 10 05 21</h2>
+		<h2>52 10 05 ❤ 10 05 21</h2>
 	</hgroup>
 	<figure class="figure_rss">
 		<menu class="fd-clr">
