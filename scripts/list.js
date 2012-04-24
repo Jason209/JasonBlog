@@ -1,7 +1,4 @@
 ﻿(function($){
-	/* imgdelay
-	var imgdelay = new ImagesDelay('ul.castlist-box');
-	*/
 	/* divdelay */
 	var divdelay = new DivDelay('section.bloglist ul');
 	/* 邮箱提醒 */
@@ -42,5 +39,4 @@
 		username=$('#username').val();
 		$(this).css('background-color','#FFFFFF');	
 	});
-	
 })(jQuery);

@@ -14,10 +14,10 @@
 	</figure>
 	<nav class="navigation fd-clr">
 		<ul class="nav fd-clr">
-			<li><a href="javascript:;" class="menu">Home</a></li>
+			<li><a href="index.php" class="menu">Home</a></li>
 			<li><a href="javascript:;" class="menu">html5</a>
 				<ul class="subnav">
-					<li><a class="submenu" href="javascript:;">Canvas</a></li>
+					<li><a class="submenu" href="pages/canvas.php">Canvas</a></li>
 					<li><a class="submenu" href="javascript:;">LocalStorage</a></li>
 					<li><a class="submenu" href="javascript:;">WebGL</a></li>
 				</ul>

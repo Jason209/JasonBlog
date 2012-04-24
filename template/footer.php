@@ -22,5 +22,5 @@
 			</article>
 		</section>
 	</section>
-	<p class="copyright">Copyright ? 2012 All Rights Reserved.Powered by Jason</p>
+	<p class="copyright">Copyright © 2012 All Rights Reserved.Powered by Jason</p>
 </footer>

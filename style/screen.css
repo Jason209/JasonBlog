@@ -143,6 +143,7 @@ nav.navigation ul.nav li{
 	text-align:center;
 }
 nav.navigation ul.nav li a.menu{
+	display:block;
 	font-size:14px;
 	text-shadow:0 -1px 0 rgba(0, 0, 0, 0.8);
 	color:#D9D9D9;
@@ -167,6 +168,7 @@ nav.navigation ul.subnav li{
 	height:39px;
 }
 nav.navigation ul.subnav li a.submenu{
+	display:block;
 	font-size:14px;
 	text-shadow:0 -1px 0 rgba(0, 0, 0, 0.8);
 	color:#D9D9D9;
