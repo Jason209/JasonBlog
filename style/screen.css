@@ -12,7 +12,7 @@ html{
 /* main */
 .main{
 	margin:0 auto;
-	width:960px;
+	width:1024px;
 	padding-bottom:50px;
 	box-shadow:1px 3px 10px #000;
 	border-radius: 0 0 15px 15px;
@@ -44,7 +44,7 @@ header.bloghead hgroup.author h2{
 }
 header.bloghead nav.navigation{
 	margin:0 auto;
-	width:960px;
+	width:1024px;
 	background:url(../images/nav_black.jpg) repeat-x;
 	height:45px;
 	padding-bottom:5px;

@@ -28,7 +28,7 @@
 			<li><a href="javascript:;" class="menu">Ued</a></li>
 			<li><a href="javascript:;" class="menu">More</a>
 				<ul class="subnav">
-					<li><a class="submenu" href="javascript:;">Articles</a></li>
+					<li><a class="submenu" href="pages/list.php">Articles</a></li>
 					<li><a class="submenu" href="javascript:;">News</a></li>
 					<li><a class="submenu" href="javascript:;">Tools</a></li>
 				</ul>
