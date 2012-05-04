@@ -1,12 +1,10 @@
-/* 
-VideoJS Default Styles (http://videojs.com)
-Version 2.0.2
-
-REQUIRED STYLES (be careful overriding)
-================================================================================ */
-/* Box containing video, controls, and download links.
-   Will be set to the width of the video element through JS
-   If you want to add some kind of frame or special positioning, use another containing element, not video-js-box. */
+/* audio */
+.html5audio{
+	margin-top:50px;
+	box-shadow:2px 3px 11px #666666;
+	border:1px solid #FFF; 
+}
+/* video */
 .video-js-box { text-align: left; position: relative; line-height: 0 !important; margin: 0; padding: 0 !important; border: none !important; background-color:#000; }
 
 /* Video Element */

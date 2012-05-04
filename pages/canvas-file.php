@@ -4,11 +4,10 @@
 <meta charset="utf-8" />
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<title>Html5 Video</title>
+<title>Canvas Demo</title>
 <link rel="stylesheet" href="../style/global.css" />
 <link rel="stylesheet" href="../style/screen.css" />
 <link rel="stylesheet" href="../style/article.css" />
-<link rel="stylesheet" href="../style/video.css" />
 <link rel="stylesheet" href="../style/menu.css" />
 </head>
 <body>
@@ -17,24 +16,19 @@
 	<div class="main fd-clr">
 		<section class="blog-article">
 			<article>
-			<h1 class="blog-tiitle">Html5 Video & Audio</h1>
+			<h1 class="blog-tiitle">Canvas 拼图游戏</h1>
 			<aside class="blog-aside">
 			<span>Canvas / </span> 
 			<time datetime="12:31  2012.3.22">12:31  2012-03-22</time>
 			</aside>
 			<section class="demo">	
-				<div class="introduction"><strong>[核心提示]</strong> 运用Html5最新的video标签，影片播放、图形呈现等功能内建于浏览器内，不需要Plug-in就能执行。并且程序与美化直接用代码编写，不需要购买Flash等工具，一大亮点是您看到的各类按钮效果完全用css3完成，没有用到一张图片</div>
-				<div class="video-js-box" style="margin:50px auto">
-					<video id="example_video_1" class="video-js" width="500" height="400" controls="controls" preload="auto" poster="http://video-js.zencoder.com/oceans-clip.png">
-					<source src="../video/oceans-clip.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-					<source src="../video/oceans-clip.webm" type='video/webm; codecs="vp8, vorbis"' />
-					<source src="../video/oceans-clip.ogv" type='video/ogg; codecs="theora, vorbis"' />
-					</video>
+				<div class="introduction"><strong>[核心提示]</strong> 用户可选择一张本地图片，单击“创建拼图”按钮后出现打乱的图片片段，用户需要根据记忆完成拼图。该游戏综合运用了Canvas API，FileList对象以及Blob对象来实现其功能。</div>
+				<div id="puzzle_para">
+					<input type="file" accept="image/*" onchange="selectFile()" id="file" />
+					<input type="button" id="createPuzzle" value="创建拼图" disabled="true" onclick="drawPuzzle()" />
 				</div>
-				<div class="introduction"><strong>[核心提示]</strong> 运用Html5最新的audio标签，影片播放、图形呈现等功能内建于浏览器内，不需要Plug-in就能执行。并且程序与美化直接用代码编写，不需要购买Flash等工具。</div>
-				<div class="html5audio">
-					<audio src="../video/htys.ogg" controls="true" style="width: 100%;" tabindex="0">您的浏览器不支持HTML5的 audio 标签，无法为您播放！</audio>
-				</div>
+				<div id="puzzle_source"></div>
+				<div id="puzzle_dest"></div>
 			</section>
 			<section class="share-tag">
 				<div class="blog-tag">
@@ -131,18 +125,14 @@
 				</ul>
 			</nav>
 		</section>
-	
 	</div>
-	<?php include("../template/footer.php"); ?>						
+	<?php include("../template/footer.php"); ?>								
 </div>
 <script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="../scripts/totop.js"></script>
 <script type="text/javascript" src="../scripts/screen.js"></script>
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-<script type="text/javascript" src="../scripts/video.js"></script>
-<script type="text/javascript">
-    VideoJS.setupAllWhenReady();
-</script>
+<script type="text/javascript" src="../scripts/puzzle.js"></script>
 </body>
 </html>	
 

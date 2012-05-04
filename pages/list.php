@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="../style/global.css" />
 <link rel="stylesheet" href="../style/screen.css" />
 <link rel="stylesheet" href="../style/list.css" />
+<link rel="stylesheet" href="../style/menu.css" />
 <title>Jason Article List</title>
 <base target="_blank" />
 </head>

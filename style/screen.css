@@ -45,8 +45,8 @@ header.bloghead hgroup.author h2{
 header.bloghead nav.navigation{
 	margin:0 auto;
 	width:1024px;
-	background:url(../images/nav_black.jpg) repeat-x;
-	height:45px;
+	background:url(../images/menu-bg.png) repeat-x;
+	height:47px;
 	padding-bottom:5px;
 	border-radius:15px 15px 0 0;
 	box-shadow:1px 3px 10px #000;
@@ -125,7 +125,7 @@ nav.navigation fieldset.search_form input.submit{
 }
 nav.navigation fieldset.search_form{
 	float:right;
-	margin-right:20px;
+	margin:5px 20px 0 0;
 	display:block;
 }
 

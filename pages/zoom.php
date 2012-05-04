@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="../style/screen.css" />
 <link rel="stylesheet" href="../style/article.css" />
 <link type="text/css" rel="stylesheet" href="../style/zoomy.css" />
+<link rel="stylesheet" href="../style/menu.css" />
 </head>
 <body>
 <div class="wrapper">

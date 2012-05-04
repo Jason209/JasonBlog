@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="style/global.css" />
 <link rel="stylesheet" href="style/screen.css" />
 <link rel="stylesheet" href="style/index.css" />
+<link href="style/menu.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
 <title>Jason Blog</title>
 <base target="_blank" />

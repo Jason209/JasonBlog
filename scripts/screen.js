@@ -19,9 +19,14 @@
 		AddFavorite('http://www.jason.com', 'JasonBlog');
 	});
 	/* 二级菜单*/
-	$('ul.nav li').hover(function(){
-		$(this).find('.subnav').show();
+	/* $('ul#nav li').hover(function(){
+		$(this).find('.subs').show();
 	},function(){
-		$(this).find('.subnav').hide();
+		$(this).find('.subs').hide();
 	});
+	$('ul.subs').hover(function(){
+		$(this).show();
+	},function(){
+		$(this).hide();
+	}); */
 })(jQuery);

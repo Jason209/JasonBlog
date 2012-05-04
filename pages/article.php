@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="../style/global.css" />
 <link rel="stylesheet" href="../style/screen.css" />
 <link rel="stylesheet" href="../style/article.css" />
+<link rel="stylesheet" href="../style/menu.css" />
 </head>
 <body>
 <div class="wrapper">

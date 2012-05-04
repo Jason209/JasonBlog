@@ -4,10 +4,12 @@
 <meta charset="utf-8" />
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<title>Canvas Demo</title>
+<title>Localstorage</title>
 <link rel="stylesheet" href="../style/global.css" />
 <link rel="stylesheet" href="../style/screen.css" />
 <link rel="stylesheet" href="../style/article.css" />
+<link rel="stylesheet" href="../style/localstorage.css" />
+<link rel="stylesheet" href="../style/menu.css" />
 </head>
 <body>
 <div class="wrapper">
@@ -15,32 +17,33 @@
 	<div class="main fd-clr">
 		<section class="blog-article">
 			<article>
-			<h1 class="blog-tiitle">Canvas 拼图游戏</h1>
+			<h1 class="blog-tiitle">LocalStorage</h1>
 			<aside class="blog-aside">
-			<span>Canvas / </span> 
-			<time datetime="12:31  2012.3.22">12:31  2012-03-22</time>
+			<span>Jquery / </span> 
+			<time datetime="12:31  2012.5.4">12:00  2012-05-04</time>
 			</aside>
-			<section class="demo">	
-				<div class="introduction"><strong>[核心提示]</strong> 用户可选择一张本地图片，单击“创建拼图”按钮后出现打乱的图片片段，用户需要根据记忆完成拼图。该游戏综合运用了Canvas API，FileList对象以及Blob对象来实现其功能。</div>
-				<div id="puzzle_para">
-					<input type="file" accept="image/*" onchange="selectFile()" id="file" />
-					<input type="button" id="createPuzzle" value="创建拼图" disabled="true" onclick="drawPuzzle()" />
-				</div>
-				<div id="puzzle_source"></div>
-				<div id="puzzle_dest"></div>
+			<section class="demo fd-clr">	
+				<div class="introduction"><strong>[核心提示]</strong> html5中提供一种在客户的段本地保存数据的功能，它就是Web Storage。Web Storagef分为两种：sessionStorage和localStorage。本示例用到的是localStorage，因为它在下次打开浏览器时依然能够读取被保存的数据。</div>
+				<div id="localstorage">
+				   <a href="#" id="addnote"><img src="../images/add.png" alt="Add Sticky Note" title="Add a new sticky note"></a>
+				   <a href="#" id="removenotes"><img src="../images/remove.png" alt="Remove all sticky notes" title="Remove all sticky notes"></a>
+				   <div class="clear">&nbsp;</div>
+			    </div>
 			</section>
+			
 			<section class="share-tag">
 				<div class="blog-tag">
 					<dl class="fd-clr">
 						<dt>标签：</dt>
-						<dd>Google+</dd>
-						<dd>社交网络</dd>
-						<dd>Facebook</dd>
+						<dd>LocalStorage</dd>
+						<dd>css3</dd>
+						<dd>Html5</dd>
+						<dd>Web Storage</dd>
 					</dl>
 				</div>
 				<div class="blog-suggest fd-clr">
 					<a class="good"></a>
-					<span>有11人喜欢</span>
+					<span>有124人喜欢</span>
 					<a href="javascript:;" class="share-blog"></a>
 					<script type="text/javascript" src="../scripts/article.js"></script>
 					<a href="javascript:void(0)" onclick="postToWb();" close="tmblog" class="s2 qqweibo" title="分享到腾讯微博"></a>
@@ -131,7 +134,10 @@
 <script type="text/javascript" src="../scripts/totop.js"></script>
 <script type="text/javascript" src="../scripts/screen.js"></script>
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-<script type="text/javascript" src="../scripts/puzzle.js"></script>
+<script type="text/javascript" src="../scripts/modernizr.js"></script>
+<script type="text/javascript" src="../scripts/localstorage.js"></script>
+<script type="text/javascript" src="../scripts/prettyDate.js"></script>
+</script>
 </body>
 </html>	
 
