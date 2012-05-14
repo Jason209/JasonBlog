@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="../style/global.css" />
 <link rel="stylesheet" href="../style/screen.css" />
 <link rel="stylesheet" href="../style/list.css" />
-<link rel="stylesheet" href="../style/menu.css" />
+<script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
 <title>Jason Article List</title>
 <base target="_blank" />
 </head>
@@ -105,7 +105,6 @@
 	</div>
 	<?php include("../template/footer.php"); ?>	
 </div>
-<script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="../scripts/totop.js"></script>
 <script type="text/javascript" src="../scripts/imgdelay.js"></script>
 <script type="text/javascript" src="../scripts/divdelay.js"></script>

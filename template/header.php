@@ -1,4 +1,5 @@
-﻿<header class="bloghead">
+﻿<link href="../style/menu.css" rel="stylesheet" type="text/css" />
+<header class="bloghead">
 	<hgroup class="author">
 		<h1>Jason</h1>
 		<h2>52 10 05 ❤ 10 05 21</h2>

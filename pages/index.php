@@ -4,17 +4,16 @@
 <meta charset="utf-8" />
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link rel="stylesheet" href="style/global.css" />
-<link rel="stylesheet" href="style/screen.css" />
-<link rel="stylesheet" href="style/index.css" />
-<link href="style/menu.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+<link rel="stylesheet" href="../style/global.css" />
+<link rel="stylesheet" href="../style/screen.css" />
+<link rel="stylesheet" href="../style/index.css" />
+<script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
 <title>Jason Blog</title>
 <base target="_blank" />
 </head>
 <body>
 <div id="wrapper">
-	<?php include("template/header.php"); ?>
+	<?php include("../template/header.php"); ?>
 	<div id="main" class="main fd-clr">
 		<section class="blogcontent fd-clr">
 			<div class="contentleft">
@@ -23,7 +22,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast1.jpg" alt="" title="" />
+									<img needload="../images/cast1.jpg" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -41,7 +40,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast4.png" alt="" title="" />
+									<img needload="../images/cast4.png" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -58,7 +57,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast7.png" alt="" title="" />
+									<img needload="../images/cast7.png" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -76,7 +75,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast10.jpg" alt="" title="" />
+									<img needload="../images/cast10.jpg" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -93,7 +92,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast13.png" alt="" title="" />
+									<img needload="../images/cast13.png" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -111,7 +110,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast14.jpg" alt="" title="" />
+									<img needload="../images/cast14.jpg" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -133,7 +132,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast2.jpg" alt="" title="" />
+									<img needload="../images/cast2.jpg" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -150,7 +149,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast5.jpg" alt="" title="" />
+									<img needload="../images/cast5.jpg" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -168,7 +167,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast8.jpg" alt="" title="" />
+									<img needload="../images/cast8.jpg" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -185,7 +184,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast11.jpg" alt="" title="" />
+									<img needload="../images/cast11.jpg" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -203,7 +202,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast14.jpg" alt="" title="" />
+									<img needload="../images/cast14.jpg" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -220,7 +219,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast17.png" alt="" title="" />
+									<img needload="../images/cast17.png" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -241,7 +240,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast3.png" alt="" title="" />
+									<img needload="../images/cast3.png" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -259,7 +258,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast6.jpg" alt="" title="" />
+									<img needload="../images/cast6.jpg" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -276,7 +275,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast9.jpg" alt="" title="" />
+									<img needload="../images/cast9.jpg" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -294,7 +293,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast12.jpg" alt="" title="" />
+									<img needload="../images/cast12.jpg" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -311,7 +310,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast15.png" alt="" title="" />
+									<img needload="../images/cast15.png" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -329,7 +328,7 @@
 						<section class="infodetail">
 							<section class="photo-loading">
 								<a class="photo-link" href="javascript:;">
-									<img needload="images/cast18.png" alt="" title="" />
+									<img needload="../images/cast18.png" alt="" title="" />
 								</a>
 							</section>
 							<section class="entry">
@@ -345,15 +344,15 @@
 				</ul>
 			</div>
 		</section>
-		<?php include("template/sidebar.php")?>
+		<?php include("../template/sidebar.php")?>
 	</div>
-	<?php include("template/footer.php"); ?>
+	<?php include("../template/footer.php"); ?>
 </div>
-<script type="text/javascript" src="scripts/totop.js"></script>
-<script type="text/javascript" src="scripts/imgdelay.js"></script>
-<script type="text/javascript" src="scripts/divdelay.js"></script>
-<script type="text/javascript" src="scripts/screen.js"></script>
-<script type="text/javascript" src="scripts/index.js"></script>
+<script type="text/javascript" src="../scripts/totop.js"></script>
+<script type="text/javascript" src="../scripts/imgdelay.js"></script>
+<script type="text/javascript" src="../scripts/divdelay.js"></script>
+<script type="text/javascript" src="../scripts/screen.js"></script>
+<script type="text/javascript" src="../scripts/index.js"></script>
 
 </body>
 </html>

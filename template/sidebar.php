@@ -1,10 +1,5 @@
-﻿<link rel="stylesheet" href="style/picshow.css" type="text/css" media="screen"/>
-<script type="text/javascript" src="scripts/jquery.tinycircleslider.min.js"></script>	
-<script type="text/javascript">
-	$(document).ready(function(){
-		$('#rotatescroll').tinycircleslider({ interval: true, snaptodots: true });
-	});
-</script>
+﻿<link rel="stylesheet" href="../style/picshow.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="../style/sidebar.css" type="text/css" media="screen"/>
 <aside class="sidebar">
 	<section class="login">
 		<!-- 登录 -->
@@ -20,8 +15,7 @@
 					<input type="password" name="password" id="password" class="input_hover" required />
 				</div>
 				<div>
-					</label><input type="checkbox" name="" />
-					<span>记住我</span>
+					<input type="submit" name="" value="注&nbsp;册" />
 					<input type="submit" name="" value="登&nbsp;录" />
 				</div>	
 				<ul class="emailtip">
@@ -36,11 +30,11 @@
 		<div id="rotatescroll">
 			<div class="viewport">
 				<ul class="overview">
-					<li><a href="#"><img src="images/img1_m.jpg" /></a></li>
-					<li><a href="#"><img src="images/img2_m.jpg" /></a></li>
-					<li><a href="#"><img src="images/img6_m.jpg" /></a></li>
-					<li><a href="#"><img src="images/img9_m.jpg" /></a></li>
-					<li><a href="#"><img src="images/img10_m.jpg" /></a></li>															
+					<li><a href="#"><img src="../images/img1_m.jpg" /></a></li>
+					<li><a href="#"><img src="../images/img2_m.jpg" /></a></li>
+					<li><a href="#"><img src="../images/img6_m.jpg" /></a></li>
+					<li><a href="#"><img src="../images/img9_m.jpg" /></a></li>
+					<li><a href="#"><img src="../images/img10_m.jpg" /></a></li>															
 				</ul>
 			</div>
 			<div class="dot"></div>
@@ -156,7 +150,14 @@
 		</nav>
 	</section>
 </aside>
-<script type="text/javascript" src="scripts/tagcloud.js"></script>	
+<script type="text/javascript" src="../scripts/jquery.tinycircleslider.min.js"></script>
+<script type="text/javascript" src="../scripts/sidebar.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#rotatescroll').tinycircleslider({ interval: true, snaptodots: true });
+	});
+</script>
+<script type="text/javascript" src="../scripts/tagcloud.js"></script>	
 
 
 

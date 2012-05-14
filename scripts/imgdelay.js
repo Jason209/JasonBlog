@@ -4,7 +4,7 @@ function ImagesDelay(container) {
     //离屏幕下方50像素内的图片加载
     var minBottom = 50;
     var srcData = new Array();
-    var waitingUrl = "images/loading.gif";
+    var waitingUrl = "../images/loading.gif";
     var lastBottomX = 0;
 
     //will server do

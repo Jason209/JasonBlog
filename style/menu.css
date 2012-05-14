@@ -79,6 +79,8 @@
 }
 #nav ul li a {
     float: none;
+	width: 100%;
+	text-align:left;
 }
 #nav ul li:hover > a {
     background-color: #121212;
