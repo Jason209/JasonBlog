@@ -1,7 +1,7 @@
 ﻿
 /* lidelay  load*/
 function DivDelay(container) {
-    //离屏幕下方50像素内的图片加载
+    //离屏幕下方50像素内的div加载
     var minBottom = 10;
     var srcData = new Array();
     var lastBottomX = 0;

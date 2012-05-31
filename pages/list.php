@@ -26,7 +26,7 @@
 						<section class="list-demo">
 							<figure>
 								<figcaption>Draw Something 为何如此流行</figcaption>
-								<article><a href="javascript:;">五个星期3000万次下载量，iOS App Store 和 Android 应用市场排行榜双料第一，每天新增100万用户，日收入达到六位数。这是游戏应用 Draw Something 在取得的骄人成绩。那么，Draw Something 有哪些独特的地方，是什么使它如此流行呢？ </a></article>
+								<article><a href="canvas-file.php">五个星期3000万次下载量，iOS App Store 和 Android 应用市场排行榜双料第一，每天新增100万用户，日收入达到六位数。这是游戏应用 Draw Something 在取得的骄人成绩。那么，Draw Something 有哪些独特的地方，是什么使它如此流行呢？ </a></article>
 							</figure>
 						</section>
 					</section>
@@ -40,7 +40,7 @@
 						<section class="list-demo">
 							<figure>
 								<figcaption>大众点评谈O2O与本地生活消费平台</figcaption>
-								<article><a href="javascript:;">大众点评产品运营副总裁姜跃平对O2O领域的特点、移动互联时代的O2O产品设计，以及大众点评如何看待开放平台战略进行了精彩的分享。</a></article>
+								<article><a href="canvas-grad.php">大众点评产品运营副总裁姜跃平对O2O领域的特点、移动互联时代的O2O产品设计，以及大众点评如何看待开放平台战略进行了精彩的分享。</a></article>
 							</figure>
 							<figure>
 								<figcaption>QQ圈子：实名社交的潘多拉魔盒</figcaption>

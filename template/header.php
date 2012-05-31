@@ -16,28 +16,28 @@
 	<nav class="navigation fd-clr">
 		<ul id="nav">
 			<li><a href="index.php">Home</a></li>
-			<li><a class="hsubs" href="#">HTML5</a>
+			<li><a class="hsubs" href="#">Html5</a>
 				<ul class="subs">
-					<li><a href="#">Canvas</a></li>
-					<li><a href="#">LocalStorage</a></li>
-					<li><a href="#">Websockets</a></li>
-					<li><a href="#">WebGL</a></li>
+					<li><a href="../pages/list.php">Canvas</a></li>
+					<li><a href="../pages/localstorage.php">LocalStorage</a></li>
+					<li><a href="javascript:;">Websockets</a></li>
+					<li><a href="../pages/video.php">Video</a></li>
 				</ul>
 			</li>
-			<li><a class="hsubs" href="#">CSS3</a>
+			<li><a class="hsubs" href="#">Css3</a>
 				<ul class="subs">
-					<li><a href="#">Transform</a></li>
+					<li><a href="../pages/sliding.php">Transform</a></li>
 					<li><a href="#">Animation</a></li>
 					<li><a href="#">Media Query</a></li>
 				</ul>
 			</li>
 			<li><a class="hsubs" href="#">Javascript</a>
 				<ul class="subs">
-					<li><a href="#">Jquery</a></li>
+					<li><a href="../pages/zoom.php">Jquery</a></li>
 					<li><a href="#">Dojo</a></li>
 				</ul>
 			</li>
-			<li><a href="#">Nodejs</a></li>
+			<li><a href="http://localhost:3000" target="_blank">Nodejs</a></li>
 			<li><a href="#">UED</a></li>
 			<li><a href="#">Tip</a></li>
 			<li><a href="#">Demo</a></li>

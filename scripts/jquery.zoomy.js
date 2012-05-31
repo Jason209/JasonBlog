@@ -16,7 +16,7 @@ jQuery.fn.zoomy = function(options){
     var defaults =  {
         zoomSize : 200,
         clickable : false,
-        round: true,
+        round: false,
         glare: true
     };
     

@@ -29,7 +29,7 @@
 								<h1>数字鸿沟的两岸</h1>
 								<article>鸿沟的一边信息匮乏，一边信息过剩，但相同的一点就是，我们都越来越不了解这个世界。</article>
 								<aside class="fd-clr">
-									<a class="aside-link" href="pages/article.php" title="" target="_blank">分类：Nodejs</a>
+									<a class="aside-link" href="article.php" title="" target="_blank">分类：Nodejs</a>
 									<time datetime="2012.3.19">2012-3-19</time>
 								</aside>
 							</section>
